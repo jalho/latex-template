@@ -1,0 +1,34 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage[hidelinks]{hyperref}
+\geometry{margin=1in}
+
+\title{My LaTeX Project}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+This is a minimal LaTeX project built using \texttt{latexmk -pdf}.
+We refer to Einstein's work here~\cite{einstein}.
+
+\section{Main Content}
+Write your content here. For example, the documentation of \LaTeX~\cite{latex} has been widely used for scientific writing.
+
+\section{Conclusion}
+More content goes here. Don't forget to cite important sources like Einstein's relativity~\cite{einstein} and Lamport's LaTeX manual~\cite{latex}.
+
+\newpage
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}
